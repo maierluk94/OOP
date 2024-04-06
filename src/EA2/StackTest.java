@@ -6,6 +6,17 @@ public class StackTest {
         System.out.println("isEmpty() Test: " + (testIsEmpty() ? "Erfolgreich." : "Fehlgeschlagen."));
         System.out.println("push() und pop() Test: " + (testPushPop() ? "Erfolgreich." : "Fehlgeschlagen."));
         System.out.println("peek() Test: " + (testPeek() ? "Erfolgreich." : "Fehlgeschlagen."));
+        System.out.println("");
+
+        Stack s = new Stack();
+        s.push("Zuerst hinzugefügt");
+        s.push("Als zweites hinzugefügt");
+        s.push("Zuletzt hinzugefügt");
+        System.out.println(s);
+        System.out.println("");
+
+        Stack emptyStack = new Stack();
+        emptyStack.peek();
     }
 
     static boolean testIsEmpty() {
