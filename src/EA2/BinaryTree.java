@@ -56,7 +56,7 @@ public class BinaryTree {
         this.inorder(root);
     }
 
-    public void inorder(BinaryNode currentNode) {
+    private void inorder(BinaryNode currentNode) {
         System.out.println(currentNode.value);
         if (currentNode.leftSon != null) {
             this.inorder(currentNode.leftSon);
