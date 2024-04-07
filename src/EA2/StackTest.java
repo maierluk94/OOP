@@ -16,6 +16,7 @@ public class StackTest {
         System.out.println("");
 
         Stack emptyStack = new Stack();
+        System.out.println(emptyStack);
         emptyStack.peek();
     }
 
