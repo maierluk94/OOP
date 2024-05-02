@@ -51,7 +51,7 @@ public class BinaryTree {
     }
 
     public void inorder() { 
-        // Prints from root to leafs, left to right 
+        // Prints from root to leafs, left to right (preorder)
         if (root == null) return;
         this.inorder(root);
     }

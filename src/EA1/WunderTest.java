@@ -34,7 +34,7 @@ public class WunderTest {
         }
     }
 
-    public static int wunderRek(int n, int steps) {
+    private static int wunderRek(int n, int steps) {
         if (n == 1) {
             return steps;
         }
